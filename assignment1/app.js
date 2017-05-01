@@ -23,7 +23,7 @@ $scope.checkList = function () {
     if ($scope.longlist<=1) {
       $scope.sayMessage= "Please enter data first";
 
-    } else if ($scope.longlist>1){
+    } else if ($scope.longlist<=3){
       $scope.sayMessage= "Enjoy";
     }
     else if ($scope.longlist>3){
@@ -39,41 +39,7 @@ $scope.checkList = function () {
 
 
 
-//
-// // (function(){
-// //
-// //   angular.module('LunchCheck', [])
-// //   .controller('checkForController', CheckForController);
-// //
-// //   CheckForController.$inject = ['$scope'];
-// //   function CheckForController($scope) {
-// //
-// //     $scope.items = [];
-// //
-// //   }
-// //
-// // })();
-//
-// (function () {
-// 'use strict';
-//
-// angular.module('myFirstApp', [])
-// .controller('MyFirstController', function ($scope) {
-//
-// //
-// // .controller('LunchcController', LunchcController);
-// //
-// // LunchcController.$inject = ['$scope'];
-// // function LunchController($scope) {
-//  $scope.name = "abc";
-//  });
-//  })();
-// //   $scope.items = function splitString(stringToSplit, separator) {
-// //   var arrayOfStrings = stringToSplit.split(separator);
-// // }
-// // var monthString = 'Jan,Feb,Mar,Apr,May,Jun,Jul,Aug,Sep,Oct,Nov,Dec';
-// //
-// // var comma = ',';
+
 // // splitString(monthString, comma);
 // //
 // // var myString = 'Hello World. How are you doing?';
