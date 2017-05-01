@@ -23,7 +23,7 @@ $scope.checkList = function () {
     if ($scope.longlist<=1) {
       $scope.sayMessage= "Please enter data first";
 
-    } else if ($scope.longlist<=3){
+      } else if ($scope.longlist<=3){
       $scope.sayMessage= "Enjoy";
     }
     else if ($scope.longlist>3){
@@ -37,10 +37,3 @@ $scope.checkList = function () {
 
 })();
 
-
-
-
-// // splitString(monthString, comma);
-// //
-// // var myString = 'Hello World. How are you doing?';
-// // var splits = myString.split(' ', 3);
